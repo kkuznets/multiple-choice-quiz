@@ -1,6 +1,7 @@
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+const counter = document.getElementById("counter");
 
 const myQuestions = [{
         question: "Who invented JavaScript?",
@@ -31,6 +32,8 @@ const myQuestions = [{
         correctAnswer: "d"
     }
 ];
+
+var count = 100
 
 function buildQuiz() {
     // variable to store the HTML output
@@ -106,7 +109,58 @@ function showResults() {
 }
 
 // display quiz right away
+renderCounter();
 buildQuiz();
+TIMER = setInterval(renderCounter,1000); // 1000ms = 1s
 
-// on submit, show results
+// Pagination
+const previousButton = document.getElementById("previous");
+const nextButton = document.getElementById("next");
+const slides = document.querySelectorAll(".slide");
+let currentSlide = 0;
+
+function showSlide(n) {
+    slides[currentSlide].classList.remove('active-slide');
+    slides[n].classList.add('active-slide');
+    currentSlide = n;
+    if (currentSlide === 0) {
+        previousButton.style.display = 'none';
+    } else {
+        previousButton.style.display = 'inline-block';
+    }
+    if (currentSlide === slides.length - 1) {
+        nextButton.style.display = 'none';
+        submitButton.style.display = 'inline-block';
+    } else {
+        nextButton.style.display = 'inline-block';
+        submitButton.style.display = 'none';
+    }
+}
+
+function showNextSlide() {
+    showSlide(currentSlide + 1);
+}
+
+function showPreviousSlide() {
+    showSlide(currentSlide - 1);
+}
+
+function renderCounter(){
+    counter.innerHTML = count;
+    if(count > 0){
+        count--
+    }else {
+        // change progress color to red
+        showResults();
+    }
+}
+
+// Show the first slide
+showSlide(currentSlide);
+
+// Show previos or next button
+previousButton.addEventListener("click", showPreviousSlide);
+nextButton.addEventListener("click", showNextSlide);
+
+// Show results
 submitButton.addEventListener('click', showResults);
