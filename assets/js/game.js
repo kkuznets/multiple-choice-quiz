@@ -41,32 +41,38 @@ let questions = [
 const INCORRECT_TAX = 10;
 const MAX_QUESTIONS = 3;
 
+// Start Game & Timer
 startGame = () => {
   questionCounter = 0;
-  score = 10;
+  score = 100;
   availableQuesions = [...questions];
   getNewQuestion();
 
+  // Timer
   setInterval(function () {
     score--;
     scoreText.innerText = score;
 
     if (score === 0) {
       localStorage.setItem("mostRecentScore", score);
+
       //go to the end page
       return window.location.assign("../../assets/html/end.html");
     }
   }, 1000);
 };
 
+// Display Next Random Question and Answers
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
+
     //go to the end page
     return window.location.assign("../../assets/html/end.html");
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+
   //Update the progress bar
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
@@ -74,6 +80,7 @@ getNewQuestion = () => {
   currentQuestion = availableQuesions[questionIndex];
   question.innerText = currentQuestion.question;
 
+  // Get Answers
   choices.forEach(choice => {
     const number = choice.dataset["number"];
     choice.innerText = currentQuestion["choice" + number];
@@ -83,6 +90,7 @@ getNewQuestion = () => {
   acceptingAnswers = true;
 };
 
+//Get User's Choice
 choices.forEach(choice => {
   choice.addEventListener("click", e => {
     if (!acceptingAnswers) return;
@@ -107,11 +115,11 @@ choices.forEach(choice => {
   });
 });
 
+//Penalty for wrong choice
 decrementScore = num => {
   score -= num;
   scoreText.innerText = score;
 };
-
 
 
 startGame();

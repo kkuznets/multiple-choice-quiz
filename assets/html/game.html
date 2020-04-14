@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Javascript Custom Quiz">
+  <meta name="keywords" content="Javascript, Quiz, Javascript Quiz">
+  <meta name="author" content="Kirill Kuznetsov">
   <title>Quick Quiz - Play</title>
   <link rel="stylesheet" href="../../assets/css/app.css" />
   <link rel="stylesheet" href="../../assets/css/game.css" />
@@ -15,14 +18,20 @@
     <div id="game" class="justify-center flex-column">
       <div id="hud">
         <div class="hud-item">
+
+          <!-- Question title -->
           <p id="progressText" class="hud-prefix">
             Question
           </p>
+
+          <!-- Progress bar -->
           <div id="progressBar">
             <div id="progressBarFull"></div>
           </div>
         </div>
         <div class="hud-item">
+
+          <!-- Score -->
           <p class="hud-prefix score-prefix">
             Score
           </p>
@@ -31,6 +40,8 @@
           </h1>
         </div>
       </div>
+
+      <!-- Dummy example -->
       <h2 id="question">What is the answer to this questions?</h2>
       <div class="choice-container">
         <p class="choice-prefix">A</p>
