@@ -8,11 +8,11 @@ A lightweight application enabling users to take online quizzes and compare thei
 
 ### Desktop
 
-<img src="assets/img/random_password_generator_desktop.png" alt="Random password generator desktop screenshot"/>
+<img src="assets/img/desktop.png" alt="Multiple choice Javascript quiz with timer desktop screenshot"/>
 
 ### Mobile
 
-<img src="assets/img/random_password_generator_mobile.png" height="400" alt="Random password generator mobile screenshot"/>
+<img src="assets/img/mobile.png" height="400" alt="Multiple choice Javascript quiz with timer mobile screenshot"/>
 
 ## Getting Started
 
