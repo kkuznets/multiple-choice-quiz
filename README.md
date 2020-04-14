@@ -1,3 +1,16 @@
+[contributors-shield]: https://img.shields.io/github/contributors/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
+[contributors-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
+[forks-url]: https://github.com/othneildrew/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/network/members
+[stars-shield]: https://img.shields.io/github/stars/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
+[stars-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
+[issues-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/issues
+[license-shield]: https://img.shields.io/github/license/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
+[license-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/yourskkuznets
+
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Random Password Generator
@@ -52,15 +65,3 @@ This project is licensed under the MIT License - see the [LICENSE.txt](https://g
 
 - Billie Thompson - [PurpleBooth](https://gist.github.com/PurpleBooth) - For [README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) and [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) templates.
 
-[contributors-shield]: https://img.shields.io/github/contributors/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[contributors-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/network/members
-[stars-shield]: https://img.shields.io/github/stars/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[stars-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[issues-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/issues
-[license-shield]: https://img.shields.io/github/license/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[license-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/yourskkuznets
