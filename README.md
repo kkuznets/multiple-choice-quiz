@@ -2,17 +2,17 @@
 
 # Random Password Generator
 
-A simple lightweight web application that enables users to generate random passwords of desired length and strength.
+A lightweight application enabling users to take online quizzes and compare their results.
 
 ## Screenshots
 
 ### Desktop
 
-<img src="assets/img/desktop.png" alt="Multiple choice Javascript quiz desktop screenshot"/>
+<img src="assets/img/random_password_generator_desktop.png" alt="Random password generator desktop screenshot"/>
 
 ### Mobile
 
-<img src="assets/img/mobile.png" height="400" alt="Multiple choice Javascript quiz mobile screenshot"/>
+<img src="assets/img/random_password_generator_mobile.png" height="400" alt="Random password generator mobile screenshot"/>
 
 ## Getting Started
 
@@ -20,25 +20,25 @@ Clone the repository or download and unpack the source code of the project. From
 
 ## Running the Application
 
-- To generate a password, click on the `Generate Password` button.
-- You will receive a number of prompts that will allows you to choose which characters to include in your password.
-- To copy your password, click on the `Copy Password` button.
+- To start the quiz, click on the `Play` button.
+- You will be presented with a number of questions that you have to answer one by one. Be quick! Each second your maximum score decreases by 1 point.
+- If you answer the question incorrectly, your choice selection will be highlighted with red colour and your score will decrease by 10 points.
+- Alternatively, if you answer the question correctly, it will be highlighted with green.
+- When you answer all the questions or your score gets to 0, the game will finish and you will be able to save your score results.
 
 ## Additional Information
 
-Users may choose to include or exclude digits, uppercase & lowercase letters and special character in their passwords.
+To see the leaderboard, click on the `Highscores` button.
 
 ## Built With
 
 - HTML5, CSS3, Javascript
 
-- [Bootstrap](https://getbootstrap.com/) - The HTML, CSS and JS library.
-
 - [Favicon.io](https://favicon.io/) - Favicon generator
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/yours-kkuznets/Random-Password-Generator/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
 
 ## Authors
 
@@ -46,7 +46,7 @@ Please read [CONTRIBUTING.md](https://github.com/yours-kkuznets/Random-Password-
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/yours-kkuznets/Random-Password-Generator/blob/master/LICENSE.txt) file for details
+This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/blob/master/LICENSE.txt) file for details
 
 ## Acknowledgments
 
