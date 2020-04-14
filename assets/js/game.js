@@ -43,14 +43,20 @@ const MAX_QUESTIONS = 3;
 
 startGame = () => {
   questionCounter = 0;
-  score = 100;
+  score = 10;
   availableQuesions = [...questions];
   getNewQuestion();
+
   setInterval(function () {
     score--;
     scoreText.innerText = score;
-  }, 1000);
 
+    if (score === 0) {
+      localStorage.setItem("mostRecentScore", score);
+      //go to the end page
+      return window.location.assign("../../assets/html/end.html");
+    }
+  }, 1000);
 };
 
 getNewQuestion = () => {
