@@ -1,67 +1,59 @@
-[contributors-shield]: https://img.shields.io/github/contributors/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[contributors-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/network/members
-[stars-shield]: https://img.shields.io/github/stars/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[stars-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[issues-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/issues
-[license-shield]: https://img.shields.io/github/license/yours-kkuznets/Multiple-Choice-Quiz-with-Timer.svg?style=flat-square
-[license-url]: https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/yourskkuznets
+[contributors-shield]: https://img.shields.io/github/contributors/kkuznets/multiple-choice-quiz.svg?style=for-the-badge&color=blueviolet
+[contributors-url]: https://github.com/kkuznets/multiple-choice-quiz/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kkuznets/multiple-choice-quiz.svg?style=for-the-badge&color=brightgreen
+[forks-url]: https://github.com/kkuznets/multiple-choice-quiz/network/members
+[stars-shield]: https://img.shields.io/github/stars/kkuznets/multiple-choice-quiz.svg?style=for-the-badge&color=orange
+[stars-url]: https://github.com/kkuznets/multiple-choice-quiz/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kkuznets/multiple-choice-quiz.svg?style=for-the-badge&color=blue
+[issues-url]: https://github.com/kkuznets/multiple-choice-quiz/issues
+[license-shield]: https://img.shields.io/github/license/kkuznets/multiple-choice-quiz.svg?style=for-the-badge&color=ff69b4
+[license-url]: https://github.com/kkuznets/multiple-choice-quiz/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/kkuznets
+
+
+
+
+# [Multiple Choice Quiz])(Working Link) <!-- omit in toc -->
+
+> Lorem ipsum dolor sit amet.
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Random Password Generator
+<img src="https://raw.githubusercontent.com/kkuznets/multiple-choice-quiz/master/assets/img/demo.png" alt="Multiple Choice Quiz Demo"/>
 
-A lightweight application enabling users to take online quizzes and compare their results.
+## 🚩 Table of Contents <!-- omit in toc -->
 
-## Screenshots
+- [🚀 Features](#-features)
+- [🔧 Getting Started](#-getting-started)
+- [✍️ Pull Request](#️-pull-request)
+- [💬 Contributing](#-contributing)
+- [📜 License](#-license)
 
-### Desktop
+## 🚀 Features
 
-<img src="assets/img/desktop.png" alt="Multiple choice Javascript quiz with timer desktop screenshot"/>
+* Simple intuitive interface
+* Has a timer to speed up the decision making process
+* Has a scoreboard with each participant and their respective score
 
-### Mobile
+## 🔧 Getting Started
 
-<img src="assets/img/mobile.png" height="400" alt="Multiple choice Javascript quiz with timer mobile screenshot"/>
+## ✍️ Pull Request
 
-## Getting Started
+Before creating a PR, test and check for any errors. If there are no errors, then commit and push.
 
-Clone the repository or download and unpack the source code of the project. From the project folder, open the `index.html` file with your preferred browser.
+For more information, please refer to the [Contributing](#-contributing) section.
 
-## Running the Application
+## 💬 Contributing
 
-- To start the quiz, click on the `Play` button.
-- You will be presented with a number of questions that you have to answer one by one. Be quick! Each second your maximum score decreases by 1 point.
-- If you answer the question incorrectly, your choice selection will be highlighted with red colour and your score will decrease by 10 points.
-- Alternatively, if you answer the question correctly, it will be highlighted with green.
-- When you answer all the questions or your score gets to 0, the game will finish and you will be able to save your score results.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-## Additional Information
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a [Pull Request](#️-pull-request)
 
-To see the leaderboard, click on the `Highscores` button.
+## 📜 License
 
-## Built With
-
-- HTML5, CSS3, Javascript
-
-- [Favicon.io](https://favicon.io/) - Favicon generator
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
-
-## Authors
-
-- **Kirill Kuznetsov** - [yours-kkuznets](https://github.com/yours-kkuznets)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer/blob/master/LICENSE.txt) file for details
-
-## Acknowledgments
-
-- Billie Thompson - [PurpleBooth](https://gist.github.com/PurpleBooth) - For [README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) and [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) templates.
-
+This software is licensed under the [MIT](https://github.com/kkuznets/multiple-choice-quiz/blob/master/LICENSE) © [kkuznets](https://github.com/kkuznets).
