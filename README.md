@@ -14,7 +14,7 @@
 
 
 
-# [Multiple Choice Quiz])(https://kkuznets.github.io/multiple-choice-quiz/) <!-- omit in toc -->
+# [Multiple Choice Quiz](https://kkuznets.github.io/multiple-choice-quiz/) <!-- omit in toc -->
 
 > A lightweight agile application enabling users to take online quizzes and compare their results.
 
