@@ -14,9 +14,9 @@
 
 
 
-# [Multiple Choice Quiz])(Working Link) <!-- omit in toc -->
+# [Multiple Choice Quiz])(https://kkuznets.github.io/multiple-choice-quiz/) <!-- omit in toc -->
 
-> Lorem ipsum dolor sit amet.
+> A lightweight agile application enabling users to take online quizzes and compare their results.
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
